@@ -1,0 +1,13 @@
+.header {
+  padding-inline: 145px;
+  padding-block: 30px;
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 100px;
+      height: 55px;
+    }
+  }
+}

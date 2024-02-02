@@ -1,0 +1,43 @@
+.section2 {
+  background: url(https://images0.persgroep.net/rcs/j11cyEwYwgdUKDYHDKyruCfnPNY/diocontent/175863753/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  // height: 500px;
+  height: auto;
+  margin-bottom: 25px;
+    .content {
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      // display: flex;
+      // flex-direction: column;
+      .photos {
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        // align-items: center;
+        h1 {
+          color: #fff;
+          display: flex;
+          justify-content: center;
+          font-size: 30px;
+          font-weight: 600;
+          gap: 15px;
+        }
+        .contents {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 10px;
+          gap: 15px;
+          p {
+            color: #fff;
+            font-size: 22px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+}

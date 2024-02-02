@@ -1,0 +1,22 @@
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  flex-direction: column;
+  gap: 15px;
+  h1 {
+    color: black;
+    font-size: 26px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+  }
+}
